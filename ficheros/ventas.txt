@@ -1,0 +1,3 @@
+leche,2
+pan,4
+pan,3
