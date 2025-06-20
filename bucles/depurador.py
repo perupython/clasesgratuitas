@@ -1,6 +1,7 @@
-for i in range(10):
-    if (i % 2 == 0):
-        continue # salte a la siguiente iteracion
-    print(i)
+edades = [30, 7, 10, 13, 16, 18, 20, 22, 23, 25]
 
-print('Fin del bucle')
+for edad in edades:
+    if edad >= 20:
+        edades.remove(edad)
+
+print(f'Edades menores: {edades}')
