@@ -1,33 +1,52 @@
 # 📚 Clases Gratuitas de Python – Python Perú
 
-🟢 Este repositorio contiene los **notebooks y materiales de apoyo** de las clases gratuitas que imparto en **vivo por TikTok (@perupython)**.  
-Las clases están diseñadas para ayudarte a **aprender Python desde cero** con ejemplos prácticos, ejercicios resueltos y mini proyectos reales.
+🟢 Este repositorio contiene los **notebooks y materiales de apoyo** de las clases gratuitas que imparto en **vivo por TikTok**.  
+Las sesiones están diseñadas para ayudarte a **aprender Python desde cero** con teoría, ejercicios guiados y proyectos reales.
+
+
 
 ---
 
-## 🧠 ¿Qué encontrarás aquí?
+## 📘 ¿Qué encontrarás aquí?
 
-- Notebooks organizados por sesión y tema  
-- Ejercicios resueltos paso a paso  
-- Proyectos sencillos aplicando lo aprendido  
-- Material complementario para seguir practicando
+- 📂 Notebooks organizados por tema o sesión  
+- ✅ Ejercicios explicados paso a paso  
+- 💡 Actividades para practicar por tu cuenta  
+- 📊 Mini proyectos aplicados a casos reales  
+- 🔁 Contenido en constante actualización cada semana
 
-> 🔁 Este repositorio se actualiza cada semana con nuevas clases en vivo.
+
 
 ---
 
 ## 🎯 ¿A quién está dirigido?
 
-- Personas que quieren aprender a programar desde cero  
-- Estudiantes de programación, informática o carreras afines  
-- Profesionales que desean aplicar Python en su trabajo  
-- Público general interesado en automatización, análisis de datos o ciencia de datos
+- Personas que quieren aprender Python desde cero  
+- Estudiantes que buscan reforzar su aprendizaje  
+- Profesionales que desean aplicar programación en su campo  
+- Curiosos que quieren empezar en el mundo del análisis y automatización
+
+
 
 ---
 
-## 📌 Temas que cubrimos
 
-- Introducción a Python y lógica de programación  
-- Variables, tipos de datos y estructuras de control  
-- Listas, tuplas, diccionarios y funciones  
-- Manipulación de datos con Pand
+## 📂 Organización del repositorio
+
+El contenido está dividido por carpetas y sesiones. Cada carpeta contiene:
+
+- El notebook `.ipynb` de la clase
+- Material complementario si aplica (archivos CSV, imágenes, etc.)
+- Título y tema de la clase
+
+> 📌 Te recomendamos seguir los notebooks en orden si estás empezando.
+
+
+
+---
+
+## ⭐ ¡Gracias por aprender con Python Perú!
+
+Si estos materiales te están ayudando, puedes apoyar el proyecto dejando una ⭐ al repositorio.  
+Actualizamos contenido constantemente para que sigas creciendo como programador o analista de datos.  
+¡Bienvenido a la comunidad Python Perú! 🐍🇵🇪
