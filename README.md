@@ -3,6 +3,8 @@
 🟢 Este repositorio contiene los **notebooks y materiales de apoyo** de las clases gratuitas que imparto en **vivo por TikTok**.  
 Las sesiones están diseñadas para ayudarte a **aprender Python desde cero** con teoría, ejercicios guiados y proyectos reales.
 
+[![TikTok](https://img.shields.io/badge/TikTok-@perupython-black?style=flat&logo=tiktok)](https://www.tiktok.com/@perupython)
+[![YouTube](https://img.shields.io/badge/YouTube-Clases%20grabadas-red?style=flat&logo=youtube)](https://www.youtube.com/@perupython)
 
 
 ---
