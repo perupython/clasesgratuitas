@@ -1,0 +1,4 @@
+fecha,cliente,producto,cantidad,precio_unitario,total
+2023-10-01,Juan Rivera,Laptop,1,1500,1500
+2023-10-02,Ana Gomez,Mouse,3,110,330
+2023-10-03,Carlos Perez,Teclado,5,50,250
