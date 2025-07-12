@@ -1,0 +1,51 @@
+id_venta,fecha,sucursal,categoria,producto,cantidad,precio_unitario,total,mes
+1,2025-01-05,Centro,Laptops,HP Pavilion,1,750,750,2025-01
+2,2025-01-06,Centro,Accesorios,Mouse Logitech,2,25,50,2025-01
+3,2025-01-06,Norte,Telefonía,iPhone 14,1,1200,1200,2025-01
+4,2025-01-07,Centro,Laptops,Dell Inspiron,1,680,680,2025-01
+5,2025-01-08,Sur,Telefonía,Samsung Galaxy S22,1,950,950,2025-01
+6,2025-01-08,Online,Laptops,MacBook Air,1,1100,1100,2025-01
+7,2025-01-09,Centro,Accesorios,Teclado Logitech,3,35,105,2025-01
+8,2025-01-10,Norte,Accesorios,Audífonos Sony,2,55,110,2025-01
+9,2025-01-11,Sur,Laptops,Acer Aspire,1,550,550,2025-01
+10,2025-01-11,Online,Telefonía,Xiaomi Redmi,2,320,640,2025-01
+11,2025-01-12,Centro,Laptops,Lenovo IdeaPad,1,620,620,2025-01
+12,2025-01-13,Norte,Telefonía,iPhone 13,1,999,999,2025-01
+13,2025-01-13,Sur,Accesorios,Mouse Genius,3,18,54,2025-01
+14,2025-01-14,Online,Telefonía,Motorola G22,2,250,500,2025-01
+15,2025-01-14,Centro,Telefonía,Nokia G20,1,200,200,2025-01
+16,2025-01-15,Norte,Laptops,HP Envy,1,820,820,2025-01
+17,2025-01-16,Sur,Accesorios,Power Bank,2,30,60,2025-01
+18,2025-01-17,Centro,Telefonía,Samsung A54,1,450,450,2025-01
+19,2025-01-18,Online,Laptops,Dell XPS,1,1300,1300,2025-01
+20,2025-01-19,Centro,Accesorios,USB 64GB,5,15,75,2025-01
+21,2025-01-19,Norte,Laptops,Lenovo ThinkPad,1,950,950,2025-01
+22,2025-01-20,Sur,Telefonía,OPPO Reno 8,1,600,600,2025-01
+23,2025-01-21,Online,Accesorios,Audífonos JBL,2,70,140,2025-01
+24,2025-01-22,Centro,Telefonía,Xiaomi Poco X5,2,400,800,2025-01
+25,2025-01-23,Norte,Laptops,Acer Nitro,1,780,780,2025-01
+26,2025-01-24,Sur,Accesorios,Teclado Genius,3,20,60,2025-01
+27,2025-01-25,Online,Telefonía,Realme C55,1,300,300,2025-01
+28,2025-01-26,Centro,Laptops,MSI Modern,1,900,900,2025-01
+29,2025-01-27,Norte,Telefonía,iPhone SE,1,450,450,2025-01
+30,2025-01-28,Sur,Accesorios,Mouse inalámbrico,4,22,88,2025-01
+31,2025-01-29,Online,Laptops,Asus ZenBook,1,980,980,2025-01
+32,2025-01-30,Centro,Telefonía,Samsung A34,1,390,390,2025-01
+33,2025-02-01,Norte,Accesorios,USB 128GB,3,25,75,2025-02
+34,2025-02-02,Sur,Laptops,HP Victus,1,880,880,2025-02
+35,2025-02-03,Online,Telefonía,Huawei P50,1,550,550,2025-02
+36,2025-02-04,Centro,Accesorios,Mousepad,5,10,50,2025-02
+37,2025-02-05,Norte,Laptops,Dell Latitude,1,720,720,2025-02
+38,2025-02-06,Sur,Telefonía,Xiaomi 12T,1,750,750,2025-02
+39,2025-02-07,Online,Accesorios,Adaptador HDMI,2,18,36,2025-02
+40,2025-02-08,Centro,Laptops,Acer Swift,1,670,670,2025-02
+41,2025-02-09,Norte,Telefonía,iPhone 12 Mini,1,650,650,2025-02
+42,2025-02-10,Sur,Accesorios,Cargador rápido,3,28,84,2025-02
+43,2025-02-11,Online,Telefonía,Realme 10,1,350,350,2025-02
+44,2025-02-12,Centro,Laptops,Lenovo Yoga,1,920,920,2025-02
+45,2025-02-13,Norte,Accesorios,Audífonos inalámbricos,2,80,160,2025-02
+46,2025-02-14,Sur,Telefonía,Samsung A14,1,250,250,2025-02
+47,2025-02-15,Online,Laptops,MacBook Pro,1,1600,1600,2025-02
+48,2025-02-16,Centro,Accesorios,USB Hub,3,22,66,2025-02
+49,2025-02-17,Norte,Laptops,Asus VivoBook,1,690,690,2025-02
+50,2025-02-18,Sur,Telefonía,Xiaomi Note 12,1,380,380,2025-02

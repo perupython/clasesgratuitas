@@ -1,0 +1,51 @@
+ID_Venta,Fecha,Sucursal,Categoria,Producto,Cantidad,Precio_Unitario
+1,2025-01-05,Centro,Laptops,HP Pavilion,1,750
+2,2025-01-06,Centro,Accesorios,Mouse Logitech,2,25
+3,2025-01-06,Norte,Telefonía,iPhone 14,1,1200
+4,2025-01-07,Centro,Laptops,Dell Inspiron,1,680
+5,2025-01-08,Sur,Telefonía,Samsung Galaxy S22,1,950
+6,2025-01-08,Online,Laptops,MacBook Air,1,1100
+7,2025-01-09,Centro,Accesorios,Teclado Logitech,3,35
+8,2025-01-10,Norte,Accesorios,Audífonos Sony,2,55
+9,2025-01-11,Sur,Laptops,Acer Aspire,1,550
+10,2025-01-11,Online,Telefonía,Xiaomi Redmi,2,320
+11,2025-01-12,Centro,Laptops,Lenovo IdeaPad,1,620
+12,2025-01-13,Norte,Telefonía,iPhone 13,1,999
+13,2025-01-13,Sur,Accesorios,Mouse Genius,3,18
+14,2025-01-14,Online,Telefonía,Motorola G22,2,250
+15,2025-01-14,Centro,Telefonía,Nokia G20,1,200
+16,2025-01-15,Norte,Laptops,HP Envy,1,820
+17,2025-01-16,Sur,Accesorios,Power Bank,2,30
+18,2025-01-17,Centro,Telefonía,Samsung A54,1,450
+19,2025-01-18,Online,Laptops,Dell XPS,1,1300
+20,2025-01-19,Centro,Accesorios,USB 64GB,5,15
+21,2025-01-19,Norte,Laptops,Lenovo ThinkPad,1,950
+22,2025-01-20,Sur,Telefonía,OPPO Reno 8,1,600
+23,2025-01-21,Online,Accesorios,Audífonos JBL,2,70
+24,2025-01-22,Centro,Telefonía,Xiaomi Poco X5,2,400
+25,2025-01-23,Norte,Laptops,Acer Nitro,1,780
+26,2025-01-24,Sur,Accesorios,Teclado Genius,3,20
+27,2025-01-25,Online,Telefonía,Realme C55,1,300
+28,2025-01-26,Centro,Laptops,MSI Modern,1,900
+29,2025-01-27,Norte,Telefonía,iPhone SE,1,450
+30,2025-01-28,Sur,Accesorios,Mouse inalámbrico,4,22
+31,2025-01-29,Online,Laptops,Asus ZenBook,1,980
+32,2025-01-30,Centro,Telefonía,Samsung A34,1,390
+33,2025-02-01,Norte,Accesorios,USB 128GB,3,25
+34,2025-02-02,Sur,Laptops,HP Victus,1,880
+35,2025-02-03,Online,Telefonía,Huawei P50,1,550
+36,2025-02-04,Centro,Accesorios,Mousepad,5,10
+37,2025-02-05,Norte,Laptops,Dell Latitude,1,720
+38,2025-02-06,Sur,Telefonía,Xiaomi 12T,1,750
+39,2025-02-07,Online,Accesorios,Adaptador HDMI,2,18
+40,2025-02-08,Centro,Laptops,Acer Swift,1,670
+41,2025-02-09,Norte,Telefonía,iPhone 12 Mini,1,650
+42,2025-02-10,Sur,Accesorios,Cargador rápido,3,28
+43,2025-02-11,Online,Telefonía,Realme 10,1,350
+44,2025-02-12,Centro,Laptops,Lenovo Yoga,1,920
+45,2025-02-13,Norte,Accesorios,Audífonos inalámbricos,2,80
+46,2025-02-14,Sur,Telefonía,Samsung A14,1,250
+47,2025-02-15,Online,Laptops,MacBook Pro,1,1600
+48,2025-02-16,Centro,Accesorios,USB Hub,3,22
+49,2025-02-17,Norte,Laptops,Asus VivoBook,1,690
+50,2025-02-18,Sur,Telefonía,Xiaomi Note 12,1,380
