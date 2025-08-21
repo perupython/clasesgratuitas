@@ -1,0 +1,33 @@
+artifact_path: file:///C:/Users/leona/OneDrive/Escritorio/clasesgratuitas/machine_learning/mlruns/0/models/m-40129d580ad54fdcbcb5a0202466614c/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.7
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.0
+is_signature_from_type_hint: false
+mlflow_version: 3.3.1
+model_id: m-40129d580ad54fdcbcb5a0202466614c
+model_size_bytes: 743
+model_uuid: m-40129d580ad54fdcbcb5a0202466614c
+prompts: null
+run_id: 406295d6fbfc4f3283984d246718e7d9
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "long", "name": "feature1", "required": true}]'
+  outputs: '[{"type": "double", "required": true}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2025-08-21 18:40:05.443140'

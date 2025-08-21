@@ -1,0 +1,22 @@
+artifact_path: file:///C:/Users/leona/OneDrive/Escritorio/clasesgratuitas/machine_learning/mlruns/0/models/m-839b2f1e951547d48fa2fee149bfdf7f/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.7
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.0
+mlflow_version: 3.3.1
+model_id: m-839b2f1e951547d48fa2fee149bfdf7f
+model_size_bytes: 435
+model_uuid: m-839b2f1e951547d48fa2fee149bfdf7f
+prompts: null
+run_id: ab22103c878a4e23a55f0cb6f27488af
+utc_time_created: '2025-08-21 18:38:58.285577'

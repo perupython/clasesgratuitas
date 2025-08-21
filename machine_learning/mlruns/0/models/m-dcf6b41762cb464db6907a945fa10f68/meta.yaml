@@ -1,0 +1,10 @@
+artifact_location: file:///C:/Users/leona/OneDrive/Escritorio/clasesgratuitas/machine_learning/mlruns/0/models/m-dcf6b41762cb464db6907a945fa10f68/artifacts
+creation_timestamp: 1755801615443
+experiment_id: '0'
+last_updated_timestamp: 1755801617976
+model_id: m-dcf6b41762cb464db6907a945fa10f68
+model_type: null
+name: modelo_regresion
+source_run_id: c9c048b827914ccbbc32a81310a53690
+status: 2
+status_message: null
