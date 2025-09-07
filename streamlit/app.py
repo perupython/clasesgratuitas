@@ -1,76 +1,75 @@
-# BIENVENIDOS A PYTHON PERÚ
-# CLASE DE APLICACIONES WEB CON STREAMLIT
-
-# No necesitas HTML, CSS, JS, solo Python
-# https://streamlit.io/
-
-# pip install streamlit
-
-import streamlit as st # Framework de aplicaciones web
+# Importación de librerías
+import streamlit as st # Aplicacion web
 import pandas as pd # Manipulación de datos
 import matplotlib.pyplot as plt # Visualización de datos
-import numpy as np # Cálculos numéricos
 import seaborn as sns # Visualización estadística
 
-# Título de la aplicación
-st.title('Hola Mundo con Streamlit')
+# Configuracion principal
+st.set_page_config(
+    page_title='Dashboard de Sismos'
+)
 
-# Texto
-st.write('Bienvenidos a Python Perú')
+# Titulo
+st.title('Dashboard de Sismos en Perú (1960 - 2024)')
 
-# Cómo mostrar un DataFrame
-dulces = pd.DataFrame({
-    'Producto': ['Galleta', 'Chocolate', 'Caramelo', 'Chicle'],
-    'Precio': [1.5, 2.0, 0.5, 0.3],
-    'Cantidad': [10, 5, 20, 30],
-    'Categoria': ['Dulce', 'Dulce', 'Dulce', 'Dulce']
+st.markdown('Visualización de datos históricos de sismos registrados en Perú entre 1960 y 2024.')
+
+# Cargar datos
+df = pd.read_csv('SismosPeru1960_2023.csv')
+# Convertir la columna FECHA_HORA a formato datetime
+df['FECHA_HORA'] = pd.to_datetime(df['FECHA_HORA'])
+
+# Metricas principales
+col1, col2, col3 = st.columns(3)
+
+with col1:
+    st.metric('Total de Sismos', df.shape[0])
+
+with col2:
+    st.metric('Magnitud Máxima', df['MAGNITUD'].max())
+
+with col3:
+    st.metric('Profundidad Promedio(km)', df['PROFUNDIDAD'].mean().round(2))
+    
+
+# Graficos principales
+col1, col2 = st.columns(2)
+
+with col1:
+    st.subheader('Distribución de Magnitudes')
+    fig, ax = plt.subplots(figsize=(6, 4))
+    sns.histplot(df['MAGNITUD'], bins=20, kde=True, color='skyblue', ax=ax)
+    # Personalizacion
+    ax.set_xlabel('Magnitud')
+    ax.set_ylabel('Frecuencia')
+    ax.set_title('Histograma de Magnitudes', fontsize=12, fontweight='bold')
+    st.pyplot(fig)
+    
+with col2:
+    st.subheader('Clasificacion de Sismos')
+    fig, ax = plt.subplots(figsize=(6, 4))
+    colores = sns.color_palette('pastel')
+    df['CLASIFICACION'].value_counts().plot.pie(
+        autopct='%1.1f%%', ax=ax, colors=colores, startangle=90
+    )
+    ax.set_title('Proporción de Clasificaciones', fontsize=12, fontweight='bold')
+    ax.set_ylabel('')
+    st.pyplot(fig)
+
+
+st.subheader('Evolución Temporal de Magnitudes (cantidad)')
+
+df_size = df.groupby(df['FECHA_HORA'].dt.month)['MAGNITUD'].size()
+
+df_size.index = df_size.index.map({
+    1:'Ene', 2:'Feb', 3:'Mar', 4:'Abr', 
+    5:'May', 6:'Jun', 7:'Jul', 8:'Ago', 
+    9:'Set', 10:'Oct', 11:'Nov', 12:'Dic'
 })
 
-# Mostrar como una tabla estática
-st.write('Tabla de Dulces (Estatica)')
-st.table(dulces)
+st.line_chart(df_size)
 
-frutas = pd.DataFrame({
-    'Producto': ['Manzana', 'Banana', 'Naranja', 'Uva', 'Pera', 'Mango', 'Piña', 'Cereza', 'Melón', 'Sandía'],
-    'Precio': [0.5, 0.3, 0.7, 1.0, 0.8, 1.5, 2.0, 3.0, 1.2, 1.8],
-    'Cantidad': [50, 80, 40, 30, 20, 15, 10, 5, 25, 12],
-    'Categoria': ['Fruta', 'Fruta', 'Fruta', 'Fruta', 'Fruta', 'Fruta', 'Fruta', 'Fruta', 'Fruta', 'Fruta']
-})
 
-# Mostrar como una tabla interactiva
-st.write('Tabla de Frutas (Interactiva)')
-st.dataframe(frutas.head(4))
-
-# Mostrar Markdown
-st.write('## Esto es un subtitulo')
-st.write('### Estoy aprendiendo streamlit')
-st.write('**Esto es un texto en negrita**')
-st.write('Soy un texto normal')
-
-# Mostrar gráfica
-st.bar_chart(dulces.set_index('Producto')['Precio'])
-# st.line_chart -> lineplot
-# st.area_chart -> areaplot
-
-df = pd.concat([dulces, frutas], ignore_index=True)
-
-# Mostrar filtros dinámicos
-st.write('### Filtros Dinámicos')
-categoria = st.selectbox('Selecciona una categoria', df['Categoria'].unique())
-filtro = df[df['Categoria'] == categoria]
-
-st.dataframe(filtro)
-
-# Cargar un archivo CSV
-
-st.write('### Cargar un archivo CSV')
-
-archivo = st.file_uploader('Sube tu archivo', type=['csv'])
-
-if archivo is not None:
-    sismos = pd.read_csv(archivo)
-    st.write('Datos cargados correctamente')
-    st.dataframe(sismos)
-    st.dataframe(sismos.describe())
-    st.dataframe(sismos.info())
-
+# Vista de la tabla
+st.subheader('Tabla de Datos de Sismos')
+st.dataframe(df)
